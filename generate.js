@@ -27,15 +27,18 @@ const tableHeader =
   "| S/N | Date | Title | Stack Used | Problem Solved / Context | Outcome / What I Learned |\n" +
   "|---|---|---|---|---|---|\n";
 
+const mainTitle = "# 2bit.devlog\n\n## Weekly Dev Log\n\n";
+
 if (!fs.existsSync(mdPath)) {
-  fs.writeFileSync(
-    mdPath,
-    "# 2bit.devlog\n\n## Weekly Dev Log\n\n" + tableHeader
-  );
+  fs.writeFileSync(mdPath, mainTitle + tableHeader);
 } else {
-  const readme = fs.readFileSync(mdPath, "utf8");
-  if (!readme.includes(tableHeader.split("\n")[0])) {
-    fs.appendFileSync(mdPath, "\n## Weekly Dev Log\n\n" + tableHeader);
+  // Check if the file is empty or missing the main title and table header
+  const readmeContent = fs.readFileSync(mdPath, "utf8");
+  if (
+    !readmeContent.includes(mainTitle.trim()) ||
+    !readmeContent.includes(tableHeader.trim())
+  ) {
+    fs.writeFileSync(mdPath, mainTitle + tableHeader + readmeContent);
   }
 }
 

@@ -22,5 +22,13 @@
     "stack": "my brain / reflection",
     "problem": "lazy coding with AI/ realized im still very much early in my career no mattter how repetive or small a code might seem or writing docs i should'nt delegate to AI",
     "outcome": "increase in deepthink and learning how to write / getting used to trying my all before seeking aid"
+  },
+  {
+    "sn": 4,
+    "date": "2025-08-25",
+    "title": "built an api",
+    "stack": "javascript, nodejs, open weather api, redis",
+    "problem": "i came across the project file in the backend eng roadmap im following",
+    "outcome": "succesfully built a weather api, also implemented caching + added expiry date so user aint getting stale data"
   }
 ]
