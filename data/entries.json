@@ -6,5 +6,13 @@
     "stack": "None (Process Optimization)",
     "problem": "Needed to eliminate distractions for July MVP sprint",
     "outcome": "Created a distraction-free environment that boosted daily focus and clarity"
+  },
+  {
+    "sn": 2,
+    "date": "2025-08-24",
+    "title": "learnt a new editor skill",
+    "stack": "nothing but NVIM",
+    "problem": "decrease in productivity / i dont have a mouse switching to my track pad is a lil bit anoying,",
+    "outcome": "increase in productivity / can now edit aything with only my keyboard"
   }
 ]
