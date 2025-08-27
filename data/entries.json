@@ -30,5 +30,13 @@
     "stack": "javascript, nodejs, open weather api, redis",
     "problem": "i came across the project file in the backend eng roadmap im following",
     "outcome": "succesfully built a weather api, also implemented caching + added expiry date so user aint getting stale data"
+  },
+  {
+    "sn": 5,
+    "date": "2025-08-27",
+    "title": "learnt how to implement (json web token) into a server",
+    "stack": "js, express, bcrypt, jwt",
+    "problem": "needed a way to authenticate users without querying the database again and again",
+    "outcome": "learnt about jwt, wrote a descriptive blog on intro to it, can now successfully implement json web token into server authentication"
   }
 ]
