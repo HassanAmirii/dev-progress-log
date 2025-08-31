@@ -38,5 +38,13 @@
     "stack": "js, express, bcrypt, jwt",
     "problem": "needed a way to authenticate users without querying the database again and again",
     "outcome": "learnt about jwt, wrote a descriptive blog on intro to it, can now successfully implement json web token into server authentication"
+  },
+  {
+    "sn": 6,
+    "date": "2025-08-31",
+    "title": "learnt how to partition admin / user authentication",
+    "stack": "json web token, expressjs, node etc",
+    "problem": "needed to allow a route to be accesed only by admin",
+    "outcome": "leanrt how to partition admin / user auth"
   }
 ]
