@@ -46,5 +46,13 @@
     "stack": "json web token, expressjs, node etc",
     "problem": "needed to allow a route to be accesed only by admin",
     "outcome": "leanrt how to partition admin / user auth"
+  },
+  {
+    "sn": 7,
+    "date": "2025-09-20",
+    "title": "leanrt a new ORM (prisma)",
+    "stack": "prisma cli, client, migrate, sqlite",
+    "problem": "needed a more efficicient aside from mongoose a friend suggested it and i learnt how to implement it",
+    "outcome": "how to set up prisma orm for database connection for local dev sqlite, for production postgresql"
   }
 ]
